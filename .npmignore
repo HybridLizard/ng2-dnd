@@ -11,9 +11,11 @@ coverage
 typings
 typings.json
 **/*.ts
+!src/*.metadata.json
 **/*.js.map
 !*.d.ts
 !src/*.d.ts
+!src/*.metadata.json
 !tests/*.d.ts
 .travis.yml
 karma*
